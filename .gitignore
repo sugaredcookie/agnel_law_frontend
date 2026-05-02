@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directory for secret environment variables
+.env
+
+# Directory for local configurations
+*.local
+
+# Optional coverage directory
+coverage/
+
+# Build directories
+build/
+dist/
+
+# Cache directories
+.npm
+.yarn
+.cache
+.tmp
+
+# React Native specific
+.expo/
+web-build/
+.expo-shared/
+
+# Optional OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Service worker output
+service-worker.js
+workbox-*.js
+
+# Report output from 'npm run build' command
+report.html
+docs/

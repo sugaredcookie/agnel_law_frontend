@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  color: #2f2f2f !important;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.p_input {
+  color: white !important;
+}
+
+.css-1vyamtt-MuiStepLabel-labelContainer {
+  color: white !important;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+  color: #1976d1 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed,
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+  color: #00d25b !important;
+}
+
+/* .input_file {
+  background-color: #2f2f2f;
+  padding:5px;
+
+  border-radius: 10px;
+  border:1px dotted #fff;
+  max-width:300px;
+  width: 100%;
+  margin:0 10px;
+}
+
+
+.input_file label {
+  background-color: rgb(188, 246, 224);
+  padding:5px 10px;
+  border-radius: 5px;
+  color:rgb(5, 87, 56);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size:20px;
+}
+
+.input_with_preview{
+
+  border:2px dotted #fff;
+  border-radius: 10px;
+  padding:10px 5px;
+  height: 85%;
+  width: 100%;
+} */
+
+.bg-none {
+  background: none;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.border-none {
+  border: none;
+}
+
+.auth.login-bg {
+  background: url("./assets/images/auth/lockimage.jpeg") no-repeat bottom center !important;
+  background-size: cover !important;
+}
+
+/* .rdt_TableRow{
+  background-color: #2A3038 !important;
+  color:#fff !important;
+}
+.bRGCiY {
+  background-color: #0F1015 !important;
+  color:#fff!important;
+}
+
+.dOTSzF{
+  fill:red !important;
+}  */
+
+/* Background and Color */
+.content-wrapper {
+  background: #f4f4f4 !important;
+  color: #2f2f2f !important;
+}
+
+.card,
+.navbar-menu-wrapper,
+.footer {
+  background: #fff !important;
+  color: #2f2f2f !important;
+}
+
+/* Card Specifics */
+.card .card-title,
+.card .card-description,
+.card .card-body,
+.text-white,
+.nav-link.text-white {
+  color: #2f2f2f !important;
+}
+
+/* Form Elements */
+.form-group label,
+.form-control,
+select.form-control {
+  color: #545050 !important;
+}
+
+.form-control,
+select.form-control {
+  background: #f2f2f2 !important;
+  border: 1px solid #000 !important;
+}
+
+/* Text */
+.text-light-black,
+.MuiStepLabel-label {
+  color: #545050;
+}
+
+/* Shadow */
+.navbar-menu-wrapper {
+  box-shadow: none !important;
+}
+
+/* Dark Theme Overrides */
+body.dark-mode .content-wrapper {
+  background: #1e1e1e !important;
+  color: #f4f4f4 !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .navbar-menu-wrapper,
+body.dark-mode .footer {
+  background: #2e2e2e !important;
+  color: #f4f4f4 !important;
+}
+
+body.dark-mode .card .card-title,
+body.dark-mode .card .card-description,
+body.dark-mode .card .card-body,
+body.dark-mode .text-white,
+body.dark-mode .nav-link.text-white {
+  color: #f4f4f4 !important;
+}
+
+body.dark-mode .form-group label,
+body.dark-mode .form-control,
+body.dark-mode select.form-control {
+  color: #d4d4d4 !important;
+}
+
+body.dark-mode .form-control,
+body.dark-mode select.form-control {
+  background: #3e3e3e !important;
+  border: 1px solid #fff !important;
+}
+
+body.dark-mode .text-light-black,
+body.dark-mode .MuiStepLabel-label {
+  color: #d4d4d4;
+}
+
+body.dark-mode .navbar-menu-wrapper {
+  box-shadow: none !important;
+}
+
+body.dark-mode .rdt_TableRow {
+  background-color: #2a3038 !important;
+  color: #fff !important;
+}
+
+body.dark-mode .bRGCiY {
+  background-color: #0f1015 !important;
+  color: #fff !important;
+}
+body.dark-mode .dOTSzF {
+  fill: red !important;
+}
+
+/* Custom Scrollbar Styles */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* For Firefox */
+.sidebar-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
