@@ -79,7 +79,7 @@ code {
 }
 
 .auth.login-bg {
-  background: url("./assets/images/auth/lockimage.jpeg") no-repeat bottom center !important;
+  background: url("./assets/images/auth/lockimage.jpeg") no-repeat top center !important;
   background-size: cover !important;
 }
 

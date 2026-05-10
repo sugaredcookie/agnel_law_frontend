@@ -237,10 +237,9 @@ const Header = () => {
           className="h-12 md:h-16 mb-2 md:mb-0"
         />
         <div className="text-center md:text-right text-white text-xs md:text-sm">
-          <span className="font-bold block md:inline">AGNEL SCHOOL OF LAW</span>
+          <span className="font-bold block md:inline">Bhagubai Changu Thakur College of Law</span>
           <span className="block md:inline md:ml-1">
-            Agnel Technical Education Complex, Sector-9A, Vashi, Navi Mumbai
-            Maharashtra 400703.
+            Plot No.04, Sector-11, Khanda Colony, New Panvel (W), Raigad, Maharashtra, Pin-410206.
           </span>
         </div>
       </div>

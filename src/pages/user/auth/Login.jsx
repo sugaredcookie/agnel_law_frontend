@@ -289,12 +289,11 @@ const Header = () => {
             rel="noopener noreferrer"
             className="text-white hover:text-gray-300 transition-colors"
           >
-            <span className="font-bold block">AGNEL SCHOOL OF LAW</span>
+            <span className="font-bold block">Bhagubai Changu Thakur College of Law</span>
           </a>
 
           <span className="block md:ml-1">
-            Agnel Technical Education Complex, Sector-9A, Vashi, Navi Mumbai
-            Maharashtra 400703.
+            Plot No.04, Sector-11, Khanda Colony, New Panvel (W), Raigad, Maharashtra, Pin-410206.
           </span>
         </div>
       </div>
