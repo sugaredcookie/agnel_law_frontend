@@ -39,7 +39,7 @@ const LinkForm = () => {
     console.log(data);
     try {
       let response;
-      if (id != undefined) {
+      if (id !== undefined) {
         // call update method
         data.id = id;
         response = await UpdateLinkViaAdmin(data);
@@ -91,7 +91,7 @@ const LinkForm = () => {
           <div className="card-body px-5 py-5">
             <h3 className=" mb-5 alert alert-warning">
               {" "}
-              {id != undefined ? "Update" : "Create"} Link
+              {id !== undefined ? "Update" : "Create"} Link
             </h3>
             <form onSubmit={handleSubmit(onSubmit)}>
               {formInputs.map((input, index) => (
