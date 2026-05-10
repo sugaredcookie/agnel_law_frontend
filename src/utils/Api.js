@@ -3,8 +3,8 @@ import axios from "axios";
 //export const baseURL = "https://lms.raphaedu.com/backend/api"; // Default: production
 //export const baseURL = "http://localhost:8000/api"; // Local development
 export const baseURL =
-  process.env.REACT_APP_BASE_HOST_URL || "https://lms.raphaedu.com/backend/api";
-  // "http://localhost:8001/api";
+  process.env.REACT_APP_BASE_HOST_URL
+  // "https://api-law.raphaedu.com/api";
 const instance = axios.create({
   baseURL,
 });
