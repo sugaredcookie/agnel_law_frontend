@@ -8,11 +8,11 @@
 // const paymentOptions = {
 //   amount: 199,
 //   currency: "INR",
-//   name: "AGNEL SCHOOL OF LAW",
+//   name: "Bhagubai Changu Thakur College of Law",
 //   description: "Application Submission...",
 //   image: "/agnel-logo.png",
 //   notes: {
-//     address: "AGNEL SCHOOL OF LAW, Vashi, Navi Mumbai",
+//     address: "Bhagubai Changu Thakur College of Law, Vashi, Navi Mumbai",
 //   },
 //   theme: { color: "#EA3565" },
 // };

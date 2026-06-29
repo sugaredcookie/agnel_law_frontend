@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="d-sm-flex justify-content-center justify-content-sm-between">
         <span className="text-muted d-block text-center text-sm-left d-sm-inline-block">
-          Copyright © Agnel School Of Law
+          Copyright © Bhagubai Changu Thakur College of Law
         </span>
       </div>
     </footer>

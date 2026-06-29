@@ -32,7 +32,7 @@ const IdCardTemplate = (student) => `
                         </div>
                         <div class="text-center flex-grow px-2">
                             <p class="text-sm font-semibold">AGNEL CHARITIES</p>
-                            <h1 class="text-base font-bold text-gray-900">AGNEL SCHOOL OF LAW</h1>
+                            <h1 class="text-base font-bold text-gray-900">Bhagubai Changu Thakur College of Law</h1>
                             <div class="text-[10px] text-gray-600 leading-tight mt-1">
                                 <p>AGNEL TECHNICAL EDUCATION COMPLEX, SECTOR 9A, VASHI, NEAR NOOR MASJID, NAVI MUMBAI, MAHARASHTRA 400703</p>
                                 <p>www.agnelschooloflaw.com | +91 2227771000 | asl@agnelschooloflaw.com</p>
@@ -94,13 +94,13 @@ const IdCardTemplate = (student) => `
                         <p><span class="font-bold">Address:</span> ${student.studentDetails.address || ""}</p>
                         <p class="mt-8">
                             <span class="font-bold">If Found please return to:</span><br>
-                            Agnel School of Law,<br>
+                            Bhagubai Changu Thakur College of Law,<br>
                             Sector-9A, Vashi, Navi Mumbai,<br>
                             Maharashtra, India, PIN - 400703.
                         </p>
                     </div>
                     <div class="bg-yellow-400 p-2 text-center text-black text-xs">
-                        This card is the property of Agnel School of Law and must be surrendered upon request.
+                        This card is the property of Bhagubai Changu Thakur College of Law and must be surrendered upon request.
                     </div>
                 </div>
             </div>

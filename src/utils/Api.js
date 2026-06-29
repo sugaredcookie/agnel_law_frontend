@@ -1,10 +1,8 @@
 import axios from "axios";
 
-//export const baseURL = "https://lms.raphaedu.com/backend/api"; // Default: production
-//export const baseURL = "http://localhost:8000/api"; // Local development
-export const baseURL =
-  process.env.REACT_APP_BASE_HOST_URL
-  // "https://api-law.raphaedu.com/api";
+// export const baseURL = "https://lms.raphaedu.com/backend/api"; // Default: production
+// export const baseURL = "http://localhost:8000/api"; // Local development
+export const baseURL = "https://api-law.raphaedu.com/api";
 const instance = axios.create({
   baseURL,
 });
@@ -454,7 +452,7 @@ export const loginAPI = async (userData) => {
     throw error;
   }
 };
-
+  
 // student API - FIXED: Changed from /students to /student
 export const studentLoginAPI = async (userData) => {
   try {

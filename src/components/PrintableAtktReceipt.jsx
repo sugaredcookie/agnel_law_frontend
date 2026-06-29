@@ -61,7 +61,7 @@ const ReceiptDocument = ({ data }) => (
           <Text style={[styles.label, { fontWeight: "bold" }]}>
             Agnel Charities
           </Text>
-          <Text style={styles.schoolName}>AGNEL SCHOOL OF LAW</Text>
+          <Text style={styles.schoolName}>Bhagubai Changu Thakur College of Law</Text>
           <Text style={styles.label}>
             Affiliated to University of Mumbai & Approved by Bar Council of
             India
@@ -69,11 +69,11 @@ const ReceiptDocument = ({ data }) => (
           <Text style={{ fontWeight: "bold" }}>
             ACCREDITTED 'B++' Grade by NAAC, ISO 9001:2015
           </Text>
-          <Text style={styles.schoolAddress}>
+          {/* <Text style={styles.schoolAddress}>
             Sector 9A,Vashi ,Navi Mumbai Maharashtra 400703 |
             asl@agnelschooloflaw.com | https://agnelschooloflaw.com |
             Tel.:02227771000
-          </Text>
+          </Text> */}
         </View>
         <Image src="/naac.png" style={styles.logo} />
       </View>
