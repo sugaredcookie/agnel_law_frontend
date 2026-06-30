@@ -46,7 +46,7 @@ const TopHeader = () => {
         {/* Left side - Brand logo for mobile */}
         <div className="flex lg:hidden items-center">
           <Link to="/panel-admin/dashboard" className="flex items-center">
-            <img src="/agnel-logo2.png" alt="Agnel LMS" className="h-8 ml-10" />
+            <img src="/agnel-logo.png" alt="Agnel LMS" className="h-8 ml-10" />
           </Link>
         </div>
 

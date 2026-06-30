@@ -10,7 +10,7 @@ const ExaminerNavbar = () => {
       {/* Brand logo wrapper */}
       <div className="h-16 bg-gray-900 flex items-center justify-center border-b border-gray-800 w-64 z-10">
         <NavLink to="/examiner/dashboard" className="px-4 flex items-center">
-          <img src="/agnel-logo2.png" alt="logo" className="h-10" />
+          <img src="/agnel-logo.png" alt="logo" className="h-10" />
         </NavLink>
       </div>
       {/* Dashboard and Grade History links */}

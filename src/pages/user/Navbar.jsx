@@ -55,10 +55,10 @@ const Navbar = () => {
         {/* Brand logo wrapper */}
         <div className="h-16 bg-gray-900 flex items-center justify-center border-b border-gray-800 fixed top-0 left-0 w-64 z-10">
           <NavLink to="/dashboard" className="px-4 hidden lg:flex items-center">
-            <img src="/agnel-logo2.png" alt="logo" className="h-10" />
+            <img src="/agnel-logo.png" alt="logo" className="h-10" />
           </NavLink>
           <NavLink to="/dashboard" className="px-4 flex lg:hidden items-center">
-            <img src="/agnel-logo2.png" alt="logo" className="h-8" />
+            <img src="/agnel-logo.png" alt="logo" className="h-8" />
           </NavLink>
         </div>
 

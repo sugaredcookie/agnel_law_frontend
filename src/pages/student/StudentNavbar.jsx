@@ -58,13 +58,13 @@ const StudentNavbar = () => {
             to="/student/dashboard"
             className="px-4 hidden lg:flex items-center"
           >
-            <img src="/agnel-logo2.png" alt="logo" className="h-10" />
+            <img src="/agnel-logo.png" alt="logo" className="h-10" />
           </NavLink>
           <NavLink
             to="/student/dashboard"
             className="px-4 flex lg:hidden items-center"
           >
-            <img src="/agnel-logo2.png" alt="logo" className="h-8" />
+            <img src="/agnel-logo.png" alt="logo" className="h-8" />
           </NavLink>
         </div>
 

@@ -38,7 +38,7 @@ const TopHeader = () => {
         <div className="flex lg:hidden items-center">
           <Link to="/faculty/dashboard" className="flex items-center">
             <img
-              src="/agnel-logo2.png"
+              src="/agnel-logo.png"
               alt="Faculty Portal"
               className="h-8 ml-10"
             />
