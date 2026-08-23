@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import { loginAPI, clearAuthTokens } from "../../../utils/Api";
 import { toast } from "react-toastify";
+
 const Login = () => {
   const navigate = useNavigate();
 
@@ -253,6 +254,21 @@ const Login = () => {
                             {" "}
                             Login
                           </NavLink>
+                        </p>
+                      </div>
+
+                      {/* Terms & Conditions Footer */}
+                      <div className="mt-6 pt-4 text-center border-t border-gray-600">
+                        <p className="text-white text-xs md:text-sm">
+                          By continuing, you agree to our{" "}
+                          <a
+                            href="/pdf.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-400 hover:text-blue-300 underline transition-colors"
+                          >
+                            Terms & Conditions
+                          </a>
                         </p>
                       </div>
                     </form>
