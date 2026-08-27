@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // export const baseURL = "https://lms.raphaedu.com/backend/api"; // Default: production
-// export const baseURL = "http://localhost:8000/api"; // Local development
+// export const baseURL = "http://localhost:8001/api"; // Local development
 export const baseURL = "https://api-law.raphaedu.com/api";
 const instance = axios.create({
   baseURL,
